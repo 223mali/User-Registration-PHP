@@ -321,23 +321,3 @@ function wpse8170_activate_user() {
     }
 }
 
-
-require 'mailgun-php/vendor/autoload.php';
-use Mailgun\Mailgun;
-
-// function mv_send_mail($email, $activation_link){
-	
-	
-// 	# Instantiate the client.
-// 	$mgClient = new Mailgun('b712c3478738103deba867aab5370551-8b34de1b-a4c7db4c', 'https://api.mailgun.net/v3/sandboxd6c11bd2694a46079ef08bfa99f978a6.mailgun.org');
-// 	$domain = "sandboxd6c11bd2694a46079ef08bfa99f978a6.mailgun.org";
-// 	# Make the call to the client.
-// 	$result = $mgClient->sendMessage($domain, array(
-// 		'from'	=> 'keitaernest@gmail.com',
-// 		'to'	=>  $email,
-// 		'subject' => 'Account Activation',
-// 		'text'	=> 'click on the following link to activate your account! '. $activation_link
-// ));
-// 	echo $result;
-// 	return $result;
-// }
